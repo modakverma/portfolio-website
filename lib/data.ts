@@ -2,8 +2,8 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
+import roomspace from "@/public/roomspace.png";
+import spotify from "@/public/spotify.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -35,51 +35,51 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "B.Tech (CSE)",
+    location: "University Institute of Technology, HPU, Shimla",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I am currently in my final year of a 4-year B.Tech degree.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "present",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "React Developer (Part-Time)",
+    location: "Work from home",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a front-end developer for 4 months. I also upskilled to the full stack. Enhanced and edited online betting frontend site using React",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "(Web & App Developer) STACK-X Solutions",
+    location: "Online",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I am working as a Web & App Developer. I am also Developing the company's website, utilizing Next.js and Tailwind CSS, showcasing strong web development skills and a commitment to creating polished and functional web solutions.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "RoomSpace",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I developed a MERN-Stack project to find rooms and list your space online.",
+    tags: ["React","MongoDB", "Tailwind", "Express","Bcryptjs","jsonwebtoken (JWT)"],
+    imageUrl: roomspace,
   },
   {
-    title: "rmtDev",
+    title: "Spotify Clone",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Developed a feature-rich Music Discovery web application. Enabled upload and playing functionality along with user authenticaion.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Supabase","PostgreSQL"],
+    imageUrl: spotify,
   },
   {
-    title: "Word Analytics",
+    title: "NoteCrafter",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Developed a user authentication and note taking application. Implemented user registration, login/logout functionality",
+    tags: ["PHP", "SQL", "XAMPP"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
@@ -98,10 +98,9 @@ export const skillsData = [
   "MongoDB",
   "Redux",
   "GraphQL",
-  "Apollo",
   "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
   "Framer Motion",
+  "DSA",
+  "C++"
 ] as const;

@@ -19,10 +19,9 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
+      Hello, I'm Modak Verma, {" "}
+      an aspiring Computer Science Engineering student with a passion for programming and problem-solving.{" "}
+        <span className="font-medium"> <br/> I specialize in the MERN stack, where I find joy in crafting web applications that are not only functional but also user-friendly and aesthetically pleasing</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My core stack
@@ -37,12 +36,9 @@ export default function About() {
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        <span className="italic">Thank you for visiting my portfolio</span>, where I showcase my projects, achievements, and the journey of a dedicated learner and programmer. Feel free to explore and connect with me{" "}
+        <span className="font-medium">—I'm always excited to collaborate, learn, and grow together.
+        </span>
       </p>
     </motion.section>
   );
