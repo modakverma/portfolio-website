@@ -4,6 +4,7 @@ import { useRef } from "react";
 import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
+import LinkBtn from "./link-btn";
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -12,6 +13,7 @@ export default function Project({
   description,
   tags,
   imageUrl,
+  url
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -65,6 +67,9 @@ export default function Project({
 
         group-even:right-[initial] group-even:-left-40"
         />
+        <div className="absolute top-[5%] right-[10%]">
+        <LinkBtn url={url}/>
+        </div>
       </section>
     </motion.div>
   );
